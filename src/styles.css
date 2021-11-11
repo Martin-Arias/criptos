@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../node_modules/@angular/material/prebuilt-themes/pink-bluegrey.css";
+html, body { height: 100%;background-color:#424242 ; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+table {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    min-width: 500px;
+  }
+  th.mat-header-cell {
+    text-align: left;
+    max-width: 300px;
+  }
