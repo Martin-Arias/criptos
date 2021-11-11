@@ -15,7 +15,7 @@ export class AppComponent implements OnInit,AfterViewInit{
 	coins: Coin[] = []
 	@ViewChild(MatSort) sort: MatSort;
 	@ViewChild(MatPaginator) paginator: MatPaginator;
-	/* Columnas de la tabla */
+	/* Columnas de la tsabla */
 	public displayedColumns = ['image','name', 'symbol', 'current_price', 'price_change_percentage_24h','total_volume'];
 
 	/* Datos de la tabla */
